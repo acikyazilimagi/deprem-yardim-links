@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="
+    <meta name="description" content="
       Deprem ile ilgili baglantilari iceren web sayfasi.
-    "
-    />
+      " />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.scss" />
+    <link rel="stylesheet" href="style.css">
     <title>Deprem Baglanti Kutusu</title>
-  </head>
-  <body>
-    <div class="apps">
-      <a href="https://depremyardim.com" class="appItem">
-        <div class="appItem__title">
-          Kurtarılmaya<br />
-          İhtiyacım Var
-        </div>
-        <div class="appItem__description">
-          Enkaz altındayım / Yardıma ihtiyacım var.
-        </div>
-      </a>
+</head>
 
-      <a href="https://afetbilgi.com" class="appItem">
-        <div class="appItem__title">Kurtuldum, Ne Yapmam Lazım?</div>
-        <div class="appItem__description"></div>
-      </a>
+<body>
+    <h1 class="text-center first-title">Deprem Baglantı Kutusu</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="apps p-0">
+                <a href="https://depremyardim.com" class="appItem">
+                    <div class="appItem__title">
+                        Kurtarılmaya<br /> İhtiyacım Var
+                    </div>
+                    <div class="appItem__description">
+                        Enkaz altındayım / Yardıma ihtiyacım var.
+                    </div>
+                </a>
 
-      <a href="https://beniyiyim.com" class="appItem">
-        <div class="appItem__title">Ben İyiyim</div>
-        <div class="appItem__description">
-          Kurtulduğumu bildirmek istiyorum.
-        </div>
-      </a>
+                <a href="https://afetbilgi.com" class="appItem">
+                    <div class="appItem__title">Kurtuldum, Ne Yapmam Lazım?</div>
+                    <div class="appItem__description"></div>
+                </a>
 
-      <a href="https://beniyiyim.com" class="appItem">
-        <div class="appItem__title">Yakınım İyi Mi?</div>
-        <div class="appItem__description">
-          Haber alamadığım yakınlarımı arıyorum.
+                <a href="https://beniyiyim.com" class="appItem">
+                    <div class="appItem__title">Ben İyiyim</div>
+                    <div class="appItem__description">
+                        Kurtulduğumu bildirmek istiyorum.
+                    </div>
+                </a>
+
+                <a href="https://beniyiyim.com" class="appItem">
+                    <div class="appItem__title">Yakınım İyi Mi?</div>
+                    <div class="appItem__description">
+                        Haber alamadığım yakınlarımı arıyorum.
+                    </div>
+                </a>
+                <a href="https://afetharita.com" class="appItem">
+                    <div class="appItem__title">Kurtarılacaklar Haritası</div>
+                    <div class="appItem__description">
+                        Yardım çağrısında bulunanların haritadaki yerleri.
+                    </div>
+                </a>
+                <a href="https://afetbilgi.com" class="appItem">
+                    <div class="appItem__title">Yardım Etmek İstiyorum</div>
+                    <div class="appItem__description">
+                        Yardım veya bağışta bulunmak istiyorum.
+                    </div>
+                </a>
+            </div>
         </div>
-      </a>
-      <a href="https://afetharita.com" class="appItem">
-        <div class="appItem__title">Kurtarılacaklar Haritası</div>
-        <div class="appItem__description">
-          Yardım çağrısında bulunanların haritadaki yerleri.
-        </div>
-      </a>
-      <a href="https://afetbilgi.com" class="appItem">
-        <div class="appItem__title">Yardım Etmek İstiyorum</div>
-        <div class="appItem__description">
-          Yardım veya bağışta bulunmak istiyorum.
-        </div>
-      </a>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="main.js"></script>
-  </body>
+</body>
+
 </html>

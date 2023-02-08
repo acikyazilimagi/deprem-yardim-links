@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.appItem {
+    font-size: 1.5rem;
+    padding: 2.1rem 0.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-title {
+    padding: 1.5rem 0;
+    background-color: #870000;
+    color: white;
+    margin: 0;
+}
+
+.appItem .appItem__title {
+    display: inline-block;
+}
+
+a:hover {
+    color: white;
+}
